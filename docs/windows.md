@@ -4,4 +4,4 @@ Set a proxy:
 Check the current proxy:  
 `git config --global --get http.proxy`
 
-Proxies can also be set through Environment Variables...  
+Proxies can also be set through Environment Variables as a Variable and Value.
