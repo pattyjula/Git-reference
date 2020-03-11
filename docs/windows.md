@@ -16,5 +16,5 @@ Install geopandas on Windows 10
 3. In a cell type command below  
 `conda install -c conda-forge geopandas`
 
-From Anaconda Prompt or bash install contextily for base map  
+Same for contextily for base map  
 `conda install -c conda-forge/label/cf201901 contextily`
