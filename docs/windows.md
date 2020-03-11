@@ -9,8 +9,12 @@ Proxies can also be set through Environment Variables as a Variable and Value fo
 Create a virtual environment  
 `conda create -n testenv python=3.x anaconda`  
 
+### GIS Stuff
 Install geopandas on Windows 10  
 1. Start virtual environment  
 2. Open Jupyter Notebook  
 3. In a cell type command below  
 `conda install -c conda-forge geopandas`
+
+From Anaconda Prompt or bash install contextily for base map  
+`conda install -c conda-forge/label/cf201901 contextily`
