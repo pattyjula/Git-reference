@@ -18,5 +18,3 @@ Install geopandas on Windows 10
 
 From Anaconda Prompt or bash install contextily for base map  
 `conda install -c conda-forge/label/cf201901 contextily`
-
-`back-ticks around`
