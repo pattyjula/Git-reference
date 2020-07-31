@@ -10,7 +10,7 @@ Create a virtual environment
 `conda create -n testenv python=3.x anaconda`  
 
 ### GIS Stuff
-Install geopandas on Windows 10  
+Install <b>geopandas</b> on Windows 10  
 1. Start virtual environment  
 2. Open Jupyter Notebook  
 3. In a cell type command below  
