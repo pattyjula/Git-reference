@@ -19,4 +19,5 @@ Same for contextily for base map
 `conda install -c conda-forge/label/cf201901 contextily`
 
 Matplotlib  
-`conda install -c conda-forge matplotlib`
+From within venv  
+`pip install matplotlib`
