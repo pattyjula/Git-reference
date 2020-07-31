@@ -12,8 +12,7 @@ Create a virtual environment
 ### GIS Stuff
 Install <b>geopandas</b> on Windows 10  
 1. Start virtual environment  
-2. Open Jupyter Notebook  
-3. In a cell type command below  
+2. Enter the command below  
 `conda install -c conda-forge geopandas`
 
 Same for contextily for base map  
