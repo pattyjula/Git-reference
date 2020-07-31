@@ -24,7 +24,7 @@ From within venv
 
 <h2>Geopandas alternative install</h2> 
 <i>Process to install geopandas on Windows Server 2019</i>  
-<h3> Taken from <a href="https://geoffboeing.com/2014/09/using-geopandas-windows/" target="_blank">Geoff Boeing</a>
+<h3> Taken from <a href="https://geoffboeing.com/2014/09/using-geopandas-windows/" target="_blank">Geoff Boeing</a></h3>
 Download the wheels for <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal" target="_blank">GDAL</a>, <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona" target="_blank">Fiona</a>, <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj" target="_blank">pyproj</a>, <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree" target="_blank">rtree</a>, and <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely" target="_blank">shapely</a> from Gohlke  
 Make sure you choose the wheel files that match your architecture (64-bit) and Python version (2.7 or 3.5). If Gohlke mentions any prerequisites in his descriptions of those 5 packages, install the prerequisites now (there might be a C++ redistributable or something similar listed there).
 If OSGeo4W, GDAL, Fiona, pyproj, rtree, or shapely is already installed, uninstall it now. The GDAL wheel contains a complete GDAL installation – don’t use it alongside OSGeo4W or other distributions.  
