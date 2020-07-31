@@ -30,7 +30,7 @@ From within venv
 2. Make sure you choose the wheel files that match your architecture (64-bit) and Python version (2.7 or 3.8). If Gohlke mentions any prerequisites in his descriptions of those 5 packages, install the prerequisites now (there might be a C++ redistributable or something similar listed there).  <br>
 3. If OSGeo4W, GDAL, Fiona, pyproj, rtree, or shapely is already installed, uninstall it now. The GDAL wheel contains a complete GDAL installation – don’t use it alongside OSGeo4W or other distributions.<br>
 4. Open a command prompt and change directories to the folder where you downloaded these 5 wheels.<br>
-5. `pip install` the GDAL wheel file you downloaded. Your actual command will be something like: `pip install GDAL‑3.1.2‑cp38‑cp38‑win_amd64.whl`<br>
+5. `pip install` the GDAL wheel file you downloaded. Your actual command will be something like:<br>`pip install GDAL‑3.1.2‑cp38‑cp38‑win_amd64.whl`<br>
 6. Add the new GDAL path to the windows PATH environment variable, something like  
 c:\users\administrator\anaconda3\envs\geo_env\lib\site-packages\osgeo<br>
  `pip install` your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.<br>   
