@@ -34,4 +34,3 @@ From within venv
 6. Add the new GDAL path to the windows PATH environment variable, something like c:\users\administrator\anaconda3\envs\geo_env\lib\site-packages\osgeo<br>
  `pip install` your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.<br>   
 7. Now you can `pip install geopandas` from command prompt or git bash<br>
-`<em>text-to-html</em>`
