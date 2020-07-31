@@ -30,6 +30,6 @@ From within venv
 3. If OSGeo4W, GDAL, Fiona, pyproj, rtree, or shapely is already installed, uninstall it now. The GDAL wheel contains a complete GDAL installation – don’t use it alongside OSGeo4W or other distributions.<br>
 4. Open a command prompt and change directories to the folder where you downloaded these 5 wheels.<br>
 5. `pip install` the GDAL wheel file you downloaded. Your actual command will be something like: pip install GDAL-1.11.2-cp27-none-win_amd64.whl<br>
-6. Add the new GDAL path to the windows PATH environment variable, something like c:\users\administrator\anaconda3\envs\geo_env\lib\site-packages<br>
-`pip install` your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.<br>   
+6. Add the new GDAL path to the windows PATH environment variable, something like c:\users\administrator\anaconda3\envs\geo_env\lib\site-packages\osgeo<br>
+ `pip install` your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.<br>   
 7. Now you can `pip install geopanda` from command prompt or git bash<br>
