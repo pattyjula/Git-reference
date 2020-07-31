@@ -33,5 +33,5 @@ From within venv
 5. `pip install` the GDAL wheel file you downloaded. Your actual command will be something like:<br>`pip install GDAL‑3.1.2‑cp38‑cp38‑win_amd64.whl`<br>
 6. Add the new GDAL path to the windows PATH environment variable, something like  
 c:\users\administrator\anaconda3\envs\geo_env\lib\site-packages\osgeo<br>
- `pip install` your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.<br>   
+8. `pip install` your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.<br>   
 7. Now you can `pip install geopandas` from command prompt or git bash<br>
