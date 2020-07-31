@@ -17,3 +17,6 @@ Install <b>geopandas</b> on Windows 10
 
 Same for contextily for base map  
 `conda install -c conda-forge/label/cf201901 contextily`
+
+Matplotlib
+`conda install -c conda-forge matplotlib`
