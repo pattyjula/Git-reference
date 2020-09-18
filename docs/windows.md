@@ -16,11 +16,13 @@ Activate a virtual environmnet
 
 #### Aliases  
 
+Creating an alias for jupyter notebook  
+
 `touch .bashrc`  
 
 `vim .bashrc`  
 
-`alias jn='jupyter notebook'  
+`alias jn='jupyter notebook'`    
 
 ### GIS Stuff
 Install <b>geopandas</b> on Windows 10  
