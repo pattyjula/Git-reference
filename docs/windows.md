@@ -1,3 +1,5 @@
+### Git Bash  
+
 Set a proxy:  
 `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080`
 
@@ -10,7 +12,16 @@ Create a virtual environment
 `conda create -n testenv python=3.x anaconda`  
 
 Activate a virtual environmnet  
-`source activate testenv`
+`source activate testenv`  
+
+#### Aliases  
+
+`touch .bashrc`  
+
+`vim .bashrc`  
+
+`alias jn='jupyter notebook'  
+
 ### GIS Stuff
 Install <b>geopandas</b> on Windows 10  
 1. Start virtual environment  
