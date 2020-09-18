@@ -20,7 +20,7 @@ Creating an alias for jupyter notebook. This assume you could not open a .bash_p
 
 `touch .bash_profile`  
 
-`vim .bashrc`  
+`vim .bash_profile`  
 
 `alias jn='jupyter notebook'`    
 
