@@ -16,7 +16,7 @@ Activate a virtual environmnet
 
 #### Aliases  
 
-Creating an alias for jupyter notebook. This assume you could not open a .bash_profile. If you can, then the command will be `start .bash_profile`
+Creating an alias for jupyter notebook. This assume you could not open a .bash_profile. If you can, then the command will be  `start .bash_profile`  Otherwise, run the following:    
 
 `touch .bash_profile`  
 
