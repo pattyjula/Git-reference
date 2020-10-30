@@ -1,1 +1,5 @@
 
+`cd .git`  
+
+`nano .gitignore`  
+
