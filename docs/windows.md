@@ -11,10 +11,10 @@ Proxies can also be set through Environment Variables as a Variable and Value fo
 Create a virtual environment  
 `conda create -n testenv python=3.x anaconda`  
 
-Activate a virtual environmnet  
+Activate a virtual environment    
 `source activate testenv`  
 
-Deactivate
+Deactivate  
 `conda deactivate`
 
 #### Aliases  
