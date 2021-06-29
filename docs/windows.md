@@ -14,6 +14,10 @@ Create a virtual environment
 Activate a virtual environmnet  
 `source activate testenv`  
 
+Deactivate
+
+`conda deactivate`
+
 #### Aliases  
 
 Creating an alias for jupyter notebook. This assume you could not open a .bash_profile. If you can, then the command will be  `start .bash_profile`  Otherwise, run the following:    
