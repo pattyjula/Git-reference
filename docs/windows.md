@@ -15,7 +15,6 @@ Activate a virtual environmnet
 `source activate testenv`  
 
 Deactivate
-
 `conda deactivate`
 
 #### Aliases  
