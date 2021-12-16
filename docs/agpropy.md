@@ -9,6 +9,6 @@ After creating the virt env, in the above it's called `pro`, then you can activa
 
 `conda activate pro`
 
-Finally install the arcgis library which will install many dependencies.
+Finally pip install the arcgis library which will install many dependencies.
 
-`conda install -c esri arcpy arcgis`
+`pip install arcgis`
