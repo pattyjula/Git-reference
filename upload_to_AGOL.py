@@ -8,7 +8,6 @@ provided without warranty of any kind.
 For security and learning purposes some steps are comments only.
 '''
 
-
 import arcpy
 import arcgis
 from arcgis.gis import GIS
