@@ -26,16 +26,16 @@ with arcpy.EnvManager(transferDomains="TRANSFER_DOMAINS"):
     arcpy.conversion.FeatureClassToShapefile("queryLayer", output_path)
     
 # create zip file here
-zipfilename = ""
+z = "" # zip file
 
 # connect to AGOL
 site_internal = GIS(site, un, pw)
 
-# Use shapefile or service definition not feature service ID
+# Use shapefile not feature service ID
 shp = site_internal.content.get('')
 
 # Call the update method to replace/overwrite it with the zip file from disk
-shp.update({}, zipfilename)
+shp.update({}, z)
 # Update feature layer
 shp.publish(overwrite=True)
 
