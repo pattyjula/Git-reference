@@ -17,7 +17,7 @@ import zipfile
 arcpy.env.overwriteOutput = True
 
 # create query layer
-
+# and include SQL statement
 arcpy.management.MakeQueryLayer(db, "queryLayer", """SELECT OBJECTID, Shape, GDB_GEOMATTR_DATA, value 
 FROM source.file""", "OBJECTID", "POINT", "4326", 'GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]];-400 -400 1000000000;-100000 10000;-100000 10000;8.98315284119521E-09;0.001;0.001;IsHighPrecision', "DEFINE_SPATIAL_PROPERTIES", "DO_NOT_INCLUDE_M_VALUES", "DO_NOT_INCLUDE_Z_VALUES", "-119.326209362609 33.3970626359568 -117.090481647225 34.8267769260519")
 
@@ -26,17 +26,18 @@ with arcpy.EnvManager(transferDomains="TRANSFER_DOMAINS"):
     arcpy.conversion.FeatureClassToShapefile("queryLayer", output_path)
     
 # create zip file here
-z = "" # zip file
+# The variable below will be a path or a path plus the file name
+z = ""
 
 # connect to AGOL
 site_internal = GIS(site, un, pw)
 
 # Use shapefile not feature service ID
-shp = site_internal.content.get('')
+shpID = site_internal.content.get('')
 
 # Call the update method to replace/overwrite it with the zip file from disk
-shp.update({}, z)
+shpID.update({}, z)
 # Update feature layer
-shp.publish(overwrite=True)
+shpID.publish(overwrite=True)
 
 print(':)')
