@@ -13,11 +13,4 @@ Finally pip install the arcgis library which will install many dependencies.
 
 `conda install arcpy=2.9 -c esri`
 
-Downgrade environment for nbconvert
-
-`conda install "nbconvert=5.6.1"`
-
-Install extensions
-
-`conda install -c conda-forge jupyter_nbextensions_configurator`
-
+`pip install ipython[all]`
