@@ -13,4 +13,6 @@ Finally pip install the arcgis library which will install many dependencies.
 
 `conda install arcpy=2.9 -c esri`
 
+The command below was helpful for some kernel issues
+
 `pip install ipython[all]`
