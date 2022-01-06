@@ -16,3 +16,8 @@ Finally pip install the arcgis library which will install many dependencies.
 Downgrade environment for nbconvert
 
 `conda install "nbconvert=5.6.1"`
+
+Install notebook
+
+`conda update notebook`
+
