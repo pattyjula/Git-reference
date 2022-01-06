@@ -17,7 +17,7 @@ Downgrade environment for nbconvert
 
 `conda install "nbconvert=5.6.1"`
 
-Install notebook
+Install extensions
 
-`conda update notebook`
+`conda install -c conda-forge jupyter_nbextensions_configurator`
 
