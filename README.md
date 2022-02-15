@@ -1,2 +1,2 @@
-# ideal-telegram-bsh
-Reference for configuring and using git bash
+# ArcGIS and GIS
+Reference for configuring and using ArcGIS and GIS tools within Python
