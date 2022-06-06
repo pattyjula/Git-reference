@@ -7,7 +7,7 @@ When you upgrade to a new version of ArcGIS Pro you will need to recreate your v
 
 After creating the virt env, in the above it's called `pro`, then you can activate it.  
 
-`conda activate pro`
+`source activate pro`
 
 Finally conda install the arcgis library which will install many dependencies.
 
