@@ -26,12 +26,3 @@ Finally conda install the arcgis library which will install many dependencies.
 
 `conda install arcpy=2.9 -c esri`
 
-# Additional commands for most fun times
-
-The command below was helpful for some kernel issues
-
-`pip install ipython[all]`
-
-From gitbash in your active virtual environment you might want to install geopandas  
-
-`conda install geopandas`
