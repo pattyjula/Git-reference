@@ -3,7 +3,7 @@ Here are some useful reference points for working with Python in ArcGIS Pro.
 # Upgrading ArcGIS Pro
 When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment. Below are the steps for upgrading to AGPro 3.0. The previous steps are kept below.
 
-Create a clone fo teh arcgis env
+Create a clone of the arcgis env
 
 ``conda create --clone arcgispro-py3 --name myenv``
 
