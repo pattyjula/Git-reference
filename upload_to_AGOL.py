@@ -36,9 +36,10 @@ def TruncateWebLayer(gis=None, target=None):
         lyr = arcgis.features.FeatureLayer(target, gis)
         lyr.manager.truncate()
         print("Successfully truncated layer: " + str(target))
-    except:
+    except Exception:
         print("Failed truncating: " + str(target))
-        sys.exit()
+        e = sys.exc_info()[1]
+        print(e.args[0])
 
 try:
 
