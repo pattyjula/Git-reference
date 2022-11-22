@@ -1,4 +1,4 @@
-# Creating virtual environment within GitBash
+# Creating virtual environment within Git Bash
 
 Run the below command to create a virt env.
 
