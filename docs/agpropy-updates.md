@@ -13,16 +13,16 @@ If the arcgis pro env is not found, run the command below for this non-standard 
 Finally activate your virtual environment and ``import arcpy`` to confirm the library installed.
 
 
-## Upgrading ArcGIS Pro - previous
-When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment.
+##  Creating virtual environment
+Run the below command to create a virt env.
 
-`conda create --name pro python=3.7`
+`conda create --name pro python=3.9`
 
 After creating the virt env, in the above it's called `pro`, then you can activate it.  
 
 `source activate pro`
 
-Finally conda install the arcgis library which will install many dependencies.
+Finally conda or pip install additional libaries which will install dependencies.
 
-`conda install arcpy=2.9 -c esri`
+
 
