@@ -11,18 +11,3 @@ If the arcgis pro env is not found, run the command below for this non-standard 
 ``conda config --add envs_dirs "C:\path to env folder you want to add\Python\envs"``  
 
 Finally activate your virtual environment and ``import arcpy`` to confirm the library installed.
-
-
-##  Creating virtual environment
-Run the below command to create a virt env.
-
-`conda create --name pro python=3.9`
-
-After creating the virt env, in the above it's called `pro`, then you can activate it.  
-
-`source activate pro`
-
-Finally conda or pip install additional libaries which will install dependencies.
-
-
-
