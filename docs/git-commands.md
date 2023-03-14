@@ -18,7 +18,7 @@ Run the below command to create a virt env.
 
 `conda create --name myenv python=3.9`
 
-After creating the virt env, in the above it's called pro, then you can activate it.
+After creating the virt env, then you can activate it.
 
 `source activate myenv`
 
