@@ -1,7 +1,7 @@
 Here are some useful reference points for working with Python in ArcGIS Pro.
 
 # Creating virtual environment with ArcGIS Pro 
-When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment. Below are the steps for upgrading to AGPro 3.0. The previous steps are kept below.
+When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment. Below are the steps for upgrading in ArcGIS Pro 3.0.
 
 Create a clone of the arcgis env
 
