@@ -32,3 +32,6 @@ Finally conda or pip install additional libaries which will install dependencies
 
 Then add the file names to the .gitignore in a text editor  
 
+### Python command from Git Bash command line
+
+`alias python='winpty python.exe'`
