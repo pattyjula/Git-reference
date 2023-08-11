@@ -11,7 +11,7 @@ Confirm the username.
 
 `git config --global user.name`
 
-Also set up your email address. For LAPD, it seems best to use your @lapd.online email address. Run the command below in Git Bash. 
+Also set up your email address. Run the command below in Git Bash. 
 
 `git config --global user.email "YOUR_EMAIL"`
 
