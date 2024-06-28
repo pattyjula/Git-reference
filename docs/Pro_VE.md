@@ -7,17 +7,13 @@ Create a clone of the arcgis env
 
 ``conda create --clone arcgispro-py3 --name myenv``
 
-# Creating virtual environment within Git Bash (not for ArcGIS)
+or create a non Arc environment
 
-Run the below command to create a virt env.
+`conda create --name myenv python=3.x`
 
-`conda create --name myenv python=3.9`
+After creating the virt env, activate it and install Arc library.
 
-After creating the virt env, then you can activate it.
-
-`source activate myenv`
-
-Finally conda or pip install additional libaries which will install dependencies. 
+`conda install -c esri arcgis`
 
 ### Here are the steps to add files to be ignored by git
 
