@@ -9,9 +9,9 @@ Create a clone of the arcgis env
 
 Or run the commands below, using the Python specific version for the Pro release.
 
-`conda create --name myenv python=3.7
-conda install -c esri arcgis
-conda install -c esri arcpy`
+`conda create --name myenv python=3.x`
+`conda install -c esri arcgis`
+`conda install -c esri arcpy`
 
 # Create a non Arc environment
 
