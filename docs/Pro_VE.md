@@ -1,13 +1,19 @@
 Here are some useful reference points for working with Python in ArcGIS Pro.
 
-# Creating virtual environment with ArcGIS Pro 
-When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment. Below are the steps for upgrading in ArcGIS Pro 3.0.
+# Creat virtual environment with ArcGIS Pro 
+When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment. 
 
 Create a clone of the arcgis env
 
-``conda create --clone arcgispro-py3 --name myenv``
+`conda create --clone arcgispro-py3 --name myenv` 
 
-or create a non Arc environment
+Or run the commands below, using the Python specific version for the Pro release.
+
+`conda create --name myenv python=3.7
+conda install -c esri arcgis
+conda install -c esri arcpy`
+
+# Create a non Arc environment
 
 `conda create --name myenv python=3.x`
 
