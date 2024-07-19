@@ -23,19 +23,3 @@ Or run the commands below, using the Python specific version for the Pro release
 # Create a non Arc environment
 
 `conda create --name myenv python=3.x`
-
-After creating the virt env, activate it and install Arc library.
-
-`conda install -c esri arcgis`
-
-### Here are the steps to add files to be ignored by git
-
-`cd .git`  
-
-`nano .gitignore`  
-
-Then add the file names to the .gitignore in a text editor  
-
-### Python command from Git Bash command line
-
-`alias python='winpty python.exe'`
