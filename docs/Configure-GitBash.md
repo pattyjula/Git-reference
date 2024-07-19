@@ -34,3 +34,15 @@ After hitting enter on your keyboard, Gitbash will prompt you for where to save 
 Open and log into [github.com](https://www.github.com). Click your icon in the top right corner, click Settings, then click SSH and GPG keys.  
 
 Click New SSH key and paste your key, then give it a name. Finally click Add SSH key and Github should confirm it has been added.
+
+### Here are the steps to add files to be ignored by git
+
+`cd .git`  
+
+`nano .gitignore`  
+
+Then add the file names to the .gitignore in a text editor  
+
+### Python command from Git Bash command line
+
+`alias python='winpty python.exe'`
