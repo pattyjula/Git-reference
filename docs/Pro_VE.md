@@ -1,6 +1,6 @@
 Here are some useful reference points for working with Python in ArcGIS Pro.
 
-# Creat virtual environment with ArcGIS Pro 
+# Create virtual environment with ArcGIS Pro 
 When you upgrade to a new version of ArcGIS Pro you will need to recreate your virtual environment. 
 
 First, optionally set the directory where you want your virtual environments to be found.
